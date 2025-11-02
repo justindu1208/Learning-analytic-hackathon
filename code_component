@@ -1,0 +1,28 @@
+├── README.md                         ← Main documentation file (overview, usage, setup)
+├── smart_study_planner_full.py       ← Streamlit app: study planner + calendar integration
+├── forecasting.py                    ← ML script: trains model to predict completion times
+├── lms_efficiency.py                 ← Data analytics script: evaluates LMS material efficiency
+├── requirements.txt                  ← Python dependencies
+├── rank.py                           ← Student ranking: avg mark, percentile, High/Mid/Low range
+├── data/                             ← Folder for datasets
+│   ├── student_assessments.csv
+│   ├── student_rank_range_latest.csv
+│   ├── la_dataset_lms_item_activity_by_session_fact.csv
+│   ├── la_dataset_lms_item_dim.csv
+│   ├── la_dataset_video_activity_by_view_fact.csv
+│   ├── la_dataset_person_module_instance_outcome_fact.csv
+│   └── data_dictionary.csv
+│   └── outlook_calendar.ics              ← Example Outlook calendar file for demo
+│   └── explore.ipynb
+├── Setup/
+│   ├── SETUP_ENVIRONMENT.md          ← Install Python, create venv, dependencies
+│   ├── OPTION_A_LIVE_SHARE.md        ← Real-time collaboration setup
+│   ├── OPTION_B_GITHUB_BRANCHES.md   ← Git branching guide
+│   └── LOCAL_LLM_SETUP.md            ← Optional LLM setup
+├── docs/
+│   ├── PROJECT_DESCRIPTION.md        ← Detailed explanation of the system
+│   ├── MODEL_TRAINING_WORKFLOW.md    ← Details on `forecasting.py`
+│   ├── LMS_EFFICIENCY_ANALYSIS.md    ← Explanation of `lms_efficiency.py`
+│   └── DEMO_GUIDE.md                 ← Steps to make a demo video or screenshots
+├── submission_summary.md             ← Final submission write-up
+└── .gitignore                        ← Ignore unnecessary or sensitive files
